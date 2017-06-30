@@ -9,7 +9,7 @@ body, html {
 #topContainer {
 	width: 100%;
 	height: 100%;
-	background-color: black;
+	background-color: #1d1f21;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -40,4 +40,15 @@ a {
 	color: #2674f2;
 	text-decoration: none;
 	padding: 5px;
+}
+.code {
+	color: rgba(256,256,256,1);
+	opacity: 1;
+}
+.code .new {color: #B695BF;}
+.code .fun {color: #81a2be;}
+.code .var {color: #f0c674;}
+.code .string {color: #B5BE63;}
+.hidden {
+	display:none;
 }
