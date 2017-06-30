@@ -52,3 +52,11 @@ a {
 .hidden {
 	display:none;
 }
+.mbr {
+	display: none;
+}
+@media screen and (max-width: 600px) {
+  .mbr {
+	display: block;
+  }
+}
